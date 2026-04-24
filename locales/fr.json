@@ -1,0 +1,97 @@
+{
+  "nav": {
+    "features": "Fonctionnalités",
+    "how": "Comment ça marche",
+    "download": "Télécharger",
+    "privacy": "Confidentialité",
+    "support": "Support"
+  },
+  "hero": {
+    "tagline": "Ne manquez jamais le signal VERT",
+    "subtitle": "IDLe Metric détecte automatiquement les signaux ROUGE et VERT du quai via la caméra de votre téléphone — reposez-vous en cabine et recevez une alerte dès qu'il est temps de partir.",
+    "cta_google": "Obtenir sur Google Play",
+    "cta_apple": "Télécharger sur App Store"
+  },
+  "stats": {
+    "offline": "100% Hors ligne",
+    "offline_sub": "Sans connexion internet",
+    "nodata": "Aucune donnée collectée",
+    "nodata_sub": "Tout reste sur votre appareil",
+    "modes": "2 Modes",
+    "modes_sub": "Caméra et Manuel"
+  },
+  "features_title": "Tout ce dont vous avez besoin au quai",
+  "features": [
+    {
+      "icon": "🎯",
+      "title": "Détection automatique",
+      "desc": "La caméra surveille le signal du quai via le rétroviseur. Détecte ROUGE et VERT automatiquement — sans interaction."
+    },
+    {
+      "icon": "⏱️",
+      "title": "Minuteur de session",
+      "desc": "Enregistre le temps d'attente avec détail ROUGE et VERT. Historique complet avec temps moyen, total et maximum."
+    },
+    {
+      "icon": "🔔",
+      "title": "Alerte audio instantanée",
+      "desc": "Dès que le signal passe au VERT, une alerte audio se déclenche — même si l'écran est atténué et que vous vous reposez."
+    },
+    {
+      "icon": "🎚️",
+      "title": "Zone de détection réglable",
+      "desc": "Faites glisser le cadre bleu pour couvrir exactement le signal. Calibrez le suivi pour que l'app suive la lumière automatiquement."
+    },
+    {
+      "icon": "💡",
+      "title": "Toutes conditions d'éclairage",
+      "desc": "Ajustement automatique de l'exposition pour soleil direct, couvert, nuit et éclairage artificiel d'entrepôt."
+    },
+    {
+      "icon": "🔋",
+      "title": "Économie de batterie",
+      "desc": "L'écran s'atténue à 0,5% de luminosité lors de longues attentes. Mode veille caméra après la première détection."
+    },
+    {
+      "icon": "✋",
+      "title": "Mode manuel",
+      "desc": "Pas de signal à ce quai ? Utilisez le minuteur manuel. Fonctionne en arrière-plan avec une notification persistante."
+    },
+    {
+      "icon": "💰",
+      "title": "Calculateur de detention",
+      "desc": "Définissez votre période gratuite et votre tarif horaire. L'app calcule automatiquement le temps et le coût de détention."
+    },
+    {
+      "icon": "📊",
+      "title": "Export CSV",
+      "desc": "Exportez l'historique de vos sessions en fichier CSV pour les rapports, la facturation ou vos archives."
+    }
+  ],
+  "how_title": "Comment ça marche",
+  "how_steps": [
+    {
+      "step": "01",
+      "title": "Montez votre téléphone",
+      "desc": "Placez votre téléphone près du rétroviseur latéral pour que la caméra voie le signal du quai à travers le reflet."
+    },
+    {
+      "step": "02",
+      "title": "Pointez la zone",
+      "desc": "Faites glisser le cadre bleu sur le signal. Appuyez sur Calibrer pour verrouiller le suivi automatique."
+    },
+    {
+      "step": "03",
+      "title": "Reposez-vous et attendez",
+      "desc": "L'écran s'atténue pour économiser la batterie. L'app surveille en continu. Quand le signal est VERT — l'alerte se déclenche."
+    }
+  ],
+  "download_title": "Conçu pour les conditions réelles de quai",
+  "download_subtitle": "Testé en plein soleil, matin couvert, nuit et faible éclairage d'entrepôt. Fonctionne hors ligne. Sans compte requis.",
+  "footer": {
+    "tagline": "Pour les routiers. Hors ligne. Aucune donnée collectée.",
+    "privacy": "Confidentialité",
+    "support": "Support",
+    "rights": "Tous droits réservés."
+  }
+}

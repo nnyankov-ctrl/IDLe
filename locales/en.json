@@ -1,0 +1,97 @@
+{
+  "nav": {
+    "features": "Features",
+    "how": "How It Works",
+    "download": "Download",
+    "privacy": "Privacy Policy",
+    "support": "Support"
+  },
+  "hero": {
+    "tagline": "Never Miss the GREEN Signal",
+    "subtitle": "IDLe Metric automatically detects RED and GREEN dock signals through your phone camera — so you can rest in the cab and get alerted the moment it's time to go.",
+    "cta_google": "Get it on Google Play",
+    "cta_apple": "Download on App Store"
+  },
+  "stats": {
+    "offline": "100% Offline",
+    "offline_sub": "No internet required",
+    "nodata": "Zero Data Collected",
+    "nodata_sub": "Everything stays on your device",
+    "modes": "2 Modes",
+    "modes_sub": "Camera & Manual"
+  },
+  "features_title": "Everything You Need at the Dock",
+  "features": [
+    {
+      "icon": "🎯",
+      "title": "Auto Signal Detection",
+      "desc": "Camera watches the dock light through your side mirror. Detects RED and GREEN automatically — no tapping, no manual input."
+    },
+    {
+      "icon": "⏱️",
+      "title": "Session Timer",
+      "desc": "Tracks total wait time with RED and GREEN breakdown. Full session history with average, total, and max wait times."
+    },
+    {
+      "icon": "🔔",
+      "title": "Instant Audio Alert",
+      "desc": "The moment the signal turns GREEN, you get an audio alert — even if the screen is dimmed and you're resting."
+    },
+    {
+      "icon": "🎚️",
+      "title": "Adjustable Detection Zone",
+      "desc": "Drag the blue frame to cover exactly the signal light. Calibrate tracking so the app follows the light if the mirror shifts."
+    },
+    {
+      "icon": "💡",
+      "title": "All Lighting Conditions",
+      "desc": "Auto-exposure adjustment handles bright sun, overcast, night, and low warehouse lighting without manual tweaking."
+    },
+    {
+      "icon": "🔋",
+      "title": "Battery Saver",
+      "desc": "Screen dims to 0.5% brightness during long waits. Camera sleep mode after first signal detected."
+    },
+    {
+      "icon": "✋",
+      "title": "Manual Mode",
+      "desc": "No signal light at this dock? Use the manual timer. Runs in background with a persistent notification."
+    },
+    {
+      "icon": "💰",
+      "title": "Detention Calculator",
+      "desc": "Set your free period and hourly rate. The app calculates detention time and cost automatically."
+    },
+    {
+      "icon": "📊",
+      "title": "Export to CSV",
+      "desc": "Export your session history as a CSV file for reporting, invoicing, or personal records."
+    }
+  ],
+  "how_title": "How It Works",
+  "how_steps": [
+    {
+      "step": "01",
+      "title": "Mount Your Phone",
+      "desc": "Place your phone near the side mirror so the camera can see the dock signal light through the mirror reflection."
+    },
+    {
+      "step": "02",
+      "title": "Aim the Detection Zone",
+      "desc": "Drag the blue frame to cover the signal light. Tap Calibrate to lock tracking — the app follows the light automatically."
+    },
+    {
+      "step": "03",
+      "title": "Rest and Wait",
+      "desc": "The screen dims to save battery. The app watches continuously. When the signal turns GREEN — your alert fires."
+    }
+  ],
+  "download_title": "Built for Real Dock Conditions",
+  "download_subtitle": "Tested in bright sun, overcast mornings, night, and low warehouse lighting. Works offline. No account required.",
+  "footer": {
+    "tagline": "Built for truck drivers. Works offline. No data collected.",
+    "privacy": "Privacy Policy",
+    "support": "Support",
+    "rights": "All rights reserved."
+  }
+}

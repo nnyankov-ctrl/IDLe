@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Support — IDLe Metric</title>
+  <meta name="description" content="IDLe Metric support page. Get help with setup, signal detection, and app features." />
+  <link rel="icon" type="image/png" href="img/icon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/main.css" />
+</head>
+<body>
+
+<!-- NAVIGATION -->
+<nav>
+  <div class="container nav-inner">
+    <a class="nav-brand" href="index.html">
+      <img src="img/icon.png" alt="IDLe Metric icon" />
+      IDLe Metric
+    </a>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="index.html#features"  data-i18n="nav.features">Features</a></li>
+      <li><a href="index.html#how"       data-i18n="nav.how">How It Works</a></li>
+      <li><a href="index.html#download"  data-i18n="nav.download">Download</a></li>
+      <li><a href="privacy-policy.html"  data-i18n="nav.privacy">Privacy Policy</a></li>
+      <li><a href="support.html"         data-i18n="nav.support">Support</a></li>
+    </ul>
+    <div class="nav-right">
+      <div class="lang-switcher" id="lang-switcher">
+        <button class="lang-trigger" id="lang-trigger" aria-haspopup="listbox" aria-expanded="false">
+          <span id="lang-current-label">🇺🇸 EN</span>
+          <svg class="lang-chevron" viewBox="0 0 10 6" width="10" height="6" fill="currentColor" aria-hidden="true">
+            <path d="M0 0l5 6 5-6z"/>
+          </svg>
+        </button>
+        <div class="lang-dropdown" id="lang-dropdown" role="listbox">
+          <button class="lang-option lang-btn active" data-lang="en">🇺🇸 English</button>
+          <button class="lang-option lang-btn" data-lang="ru">🇷🇺 Русский</button>
+          <button class="lang-option lang-btn" data-lang="es">🇪🇸 Español</button>
+          <button class="lang-option lang-btn" data-lang="uk">🇺🇦 Українська</button>
+          <button class="lang-option lang-btn" data-lang="fr">🇫🇷 Français</button>
+        </div>
+      </div>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <svg width="22" height="22" viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+          <line x1="3" y1="6"  x2="19" y2="6"/>
+          <line x1="3" y1="11" x2="19" y2="11"/>
+          <line x1="3" y1="16" x2="19" y2="16"/>
+        </svg>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<!-- PAGE HERO -->
+<div class="page-hero">
+  <div class="container">
+    <h1 id="support-hero-title">Support</h1>
+    <p id="support-hero-sub">We're here to help you get the most out of IDLe Metric</p>
+  </div>
+</div>
+
+<!-- SUPPORT CARDS -->
+<section style="padding: 64px 0 32px;">
+  <div class="container">
+    <div class="support-grid" id="support-cards">
+      <!-- Populated by i18n.js -->
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section style="padding: 32px 0 96px;">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-label" id="faq-label">FAQ</span>
+      <h2 id="faq-title">Frequently Asked Questions</h2>
+    </div>
+    <div class="faq-section" id="faq-list">
+      <!-- Populated by i18n.js -->
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container footer-inner">
+    <div class="footer-brand">
+      <img src="img/icon.png" alt="IDLe Metric" />
+      IDLe Metric
+    </div>
+    <p class="footer-tagline" data-i18n="footer.tagline">
+      Built for truck drivers. Works offline. No data collected.
+    </p>
+    <div class="footer-links" aria-label="Footer navigation">
+      <a href="privacy-policy.html" data-i18n="footer.privacy">Privacy Policy</a>
+      <a href="support.html"        data-i18n="footer.support">Support</a>
+    </div>
+    <p class="footer-copy">
+      © <span id="year"></span> IDLe Metric. <span data-i18n="footer.rights">All rights reserved.</span>
+    </p>
+  </div>
+</footer>
+
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+<script src="js/i18n.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

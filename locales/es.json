@@ -1,0 +1,97 @@
+{
+  "nav": {
+    "features": "Funciones",
+    "how": "Cómo Funciona",
+    "download": "Descargar",
+    "privacy": "Privacidad",
+    "support": "Soporte"
+  },
+  "hero": {
+    "tagline": "No te pierdas la señal VERDE",
+    "subtitle": "IDLe Metric detecta automáticamente las señales ROJA y VERDE del muelle a través de la cámara de tu teléfono — descansa en la cabina y recibe una alerta cuando sea hora de salir.",
+    "cta_google": "Obtener en Google Play",
+    "cta_apple": "Descargar en App Store"
+  },
+  "stats": {
+    "offline": "100% Sin conexión",
+    "offline_sub": "No requiere internet",
+    "nodata": "Sin recolección de datos",
+    "nodata_sub": "Todo permanece en tu dispositivo",
+    "modes": "2 Modos",
+    "modes_sub": "Cámara y Manual"
+  },
+  "features_title": "Todo lo que necesitas en el muelle",
+  "features": [
+    {
+      "icon": "🎯",
+      "title": "Detección automática",
+      "desc": "La cámara vigila la señal del muelle a través del espejo lateral. Detecta ROJO y VERDE automáticamente."
+    },
+    {
+      "icon": "⏱️",
+      "title": "Temporizador de sesión",
+      "desc": "Registra el tiempo de espera con desglose ROJO y VERDE. Historial completo con tiempos promedio, total y máximo."
+    },
+    {
+      "icon": "🔔",
+      "title": "Alerta de audio instantánea",
+      "desc": "En el momento en que la señal cambia a VERDE, recibes una alerta de audio, incluso con la pantalla atenuada."
+    },
+    {
+      "icon": "🎚️",
+      "title": "Zona de detección ajustable",
+      "desc": "Arrastra el marco azul para cubrir exactamente la señal. Calibra el seguimiento para que la app siga la luz automáticamente."
+    },
+    {
+      "icon": "💡",
+      "title": "Todas las condiciones de luz",
+      "desc": "Ajuste automático de exposición para sol brillante, nublado, noche e iluminación artificial de almacén."
+    },
+    {
+      "icon": "🔋",
+      "title": "Ahorro de batería",
+      "desc": "La pantalla se atenúa al 0.5% durante largas esperas. Modo de reposo de cámara tras detectar la primera señal."
+    },
+    {
+      "icon": "✋",
+      "title": "Modo manual",
+      "desc": "¿Sin señal en este muelle? Usa el temporizador manual. Funciona en segundo plano con notificación persistente."
+    },
+    {
+      "icon": "💰",
+      "title": "Calculadora de detention",
+      "desc": "Configura tu período libre y tarifa por hora. La app calcula el tiempo y costo de detención automáticamente."
+    },
+    {
+      "icon": "📊",
+      "title": "Exportar a CSV",
+      "desc": "Exporta el historial de sesiones como archivo CSV para informes, facturación o registros personales."
+    }
+  ],
+  "how_title": "Cómo funciona",
+  "how_steps": [
+    {
+      "step": "01",
+      "title": "Monta tu teléfono",
+      "desc": "Coloca tu teléfono cerca del espejo lateral para que la cámara vea la señal del muelle a través del reflejo."
+    },
+    {
+      "step": "02",
+      "title": "Apunta la zona",
+      "desc": "Arrastra el marco azul sobre la señal. Toca Calibrar para bloquear el seguimiento automático."
+    },
+    {
+      "step": "03",
+      "title": "Descansa y espera",
+      "desc": "La pantalla se atenúa para ahorrar batería. La app vigila continuamente. Cuando la señal sea VERDE — suena la alerta."
+    }
+  ],
+  "download_title": "Diseñado para condiciones reales de muelle",
+  "download_subtitle": "Probado en sol brillante, mañanas nubladas, noche e iluminación baja de almacén. Funciona sin conexión. Sin cuenta.",
+  "footer": {
+    "tagline": "Para camioneros. Sin conexión. Sin recolección de datos.",
+    "privacy": "Privacidad",
+    "support": "Soporte",
+    "rights": "Todos los derechos reservados."
+  }
+}
